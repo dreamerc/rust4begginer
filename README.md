@@ -34,6 +34,7 @@ Jupyter
 ```bash
 apt install jupyter-notebook cmake g++
 cargo install evcxr_jupyter
+evcxr_jupyter --install
 ```
 Start
 ---
