@@ -1,4 +1,4 @@
-# Debian rust + jupyter
+# Debian unstable rust + jupyter
 FROM rust:latest 
 WORKDIR /root
 RUN DEBIAN_FRONTEND=noninteractive apt update && apt install --yes jupyter-notebook g++ cmake && cargo install evcxr_jupyter
