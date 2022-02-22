@@ -1,0 +1,10 @@
+language: go
+
+services:
+  - docker
+
+before_install:
+  - docker build -t rust4beginner .
+
+script:
+  - docker run --entrypoint "/bin/sh" --rm -p 8888:8888 dreamerwolf/rust4beginner:latest -c "rustc --version"
