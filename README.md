@@ -1,10 +1,23 @@
+Release Note
+===
+2022
+---
+0213 Rust 1.58.1 + Jupyter with Docker Hub update
+
+Quick Start
+========
+Rust + Jupyter
+```bash
+docker run -it --rm -p 8888:8888 dreamerwolf/rust4beginner:latest
+```
+
 The book
 =======
 https://doc.rust-lang.org/book/
 
 Install
 =====
-Quick Start
+Quick Start for offline
 ------------
 ```bash
 git clone https://github.com/dreamerc/rust4beginner.git
@@ -52,6 +65,8 @@ fi
 
 Verify
 ====
+Compile
+---
 Hello World (hello.rs)
 https://doc.rust-lang.org/rust-by-example/hello.html
 ```rust
@@ -70,7 +85,14 @@ fn main() {
     println!("Hello World!");
 }
 ```
-Hello World (jupyter)
+
+```bash
+rustc hello.rs
+./hello
+```
+Jupyter
+---
+Hello World
 ```rust
 println!("Hello World!");
 ```
