@@ -1,12 +1,13 @@
+This project is focusing on the beginner during Rust explore.
+
 Release Note
 ===
-2022
----
-0213 Rust 1.58.1 + Jupyter with Docker Hub update
+- 2022-02-13 Rust 1.58.1 + Jupyter with Docker Hub update
+- 2022-02-26 Rust 1.59.0 update
 
 Quick Start
 ========
-Rust + Jupyter
+
 ```bash
 docker run -it --rm -p 8888:8888 dreamerwolf/rust4beginner:latest
 ```
@@ -15,7 +16,41 @@ The book
 =======
 https://doc.rust-lang.org/book/
 
-Install
+Verify
+====
+Jupyter
+---
+Hello World
+```rust
+println!("Hello World!");
+```
+Compile
+---
+Hello World (hello.rs)
+https://doc.rust-lang.org/rust-by-example/hello.html
+```rust
+// This is a comment, and is ignored by the compiler
+// You can test this code by clicking the "Run" button over there ->
+// or if you prefer to use your keyboard, you can use the "Ctrl + Enter" shortcut
+
+// This code is editable, feel free to hack it!
+// You can always return to the original code by clicking the "Reset" button ->
+
+// This is the main function
+fn main() {
+    // Statements here are executed when the compiled binary is called
+
+    // Print text to the console
+    println!("Hello World!");
+}
+```
+
+```bash
+rustc hello.rs
+./hello
+```
+
+How to Build your own
 =====
 Quick Start for offline
 ------------
@@ -61,38 +96,4 @@ Cargo Bin
 if [ -d "$HOME/.cargo/bin" ] ; then
 PATH="$HOME/.cargo/bin:$PATH"
 fi
-```
-
-Verify
-====
-Compile
----
-Hello World (hello.rs)
-https://doc.rust-lang.org/rust-by-example/hello.html
-```rust
-// This is a comment, and is ignored by the compiler
-// You can test this code by clicking the "Run" button over there ->
-// or if you prefer to use your keyboard, you can use the "Ctrl + Enter" shortcut
-
-// This code is editable, feel free to hack it!
-// You can always return to the original code by clicking the "Reset" button ->
-
-// This is the main function
-fn main() {
-    // Statements here are executed when the compiled binary is called
-
-    // Print text to the console
-    println!("Hello World!");
-}
-```
-
-```bash
-rustc hello.rs
-./hello
-```
-Jupyter
----
-Hello World
-```rust
-println!("Hello World!");
 ```
