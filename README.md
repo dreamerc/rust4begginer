@@ -4,6 +4,7 @@ Release Note
 ===
 - 2022-02-13 Rust 1.58.1 + Jupyter with Docker Hub update
 - 2022-02-26 Rust 1.59.0 update
+- 2022-03-09 Rust 1.59.0 docker hub update
 
 Quick Start
 ========
