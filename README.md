@@ -9,6 +9,7 @@ Release Note
 - 2022-04-11 Rust 1.60.0 update
 - 2022-06-07 Rust 1.61.0 update
 - 2022-07-07 Rust 1.62.0 update
+- 2022-07-25 Rust 1.62.1 update
 
 Quick Start
 ========
