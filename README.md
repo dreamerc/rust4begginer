@@ -21,12 +21,11 @@ Quick Start
 docker run -it --rm -p 8888:8888 dreamerwolf/rust4beginner:latest
 ```
 
-![[demo.gif]]
+![demo.gif](https://raw.githubusercontent.com/dreamerc/rust4beginner/main/demo.gif)
 
 **Ctrl+C , Y to Quit**
 
-![[demo.png]]
-
+![demo.png](https://raw.githubusercontent.com/dreamerc/rust4beginner/main/demo.png)
 
 
 The book
