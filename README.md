@@ -2,16 +2,17 @@ This project is focusing on the beginner during Rust explore.
 
 Release Note
 ===
-- 2022-02-13 Rust 1.58.1 + Jupyter with Docker Hub update
-- 2022-02-26 Rust 1.59.0 update
-- 2022-03-09 Rust 1.59.0 docker hub update
-- 2022-03-21 Rust 1.59.0 docker hub update 2
-- 2022-04-11 Rust 1.60.0 update
-- 2022-06-07 Rust 1.61.0 update
-- 2022-07-07 Rust 1.62.0 update
-- 2022-07-25 Rust 1.62.1 update
-- 2022-08-16 Rust 1.63.0 update
+- 2022-11-05 Rust 1.65.0 update
 - 2022-09-23 Rust 1.64.0 update
+- 2022-08-16 Rust 1.63.0 update
+- 2022-07-25 Rust 1.62.1 update
+- 2022-07-07 Rust 1.62.0 update
+- 2022-06-07 Rust 1.61.0 update
+- 2022-04-11 Rust 1.60.0 update
+- 2022-03-21 Rust 1.59.0 docker hub update 2
+- 2022-03-09 Rust 1.59.0 docker hub update
+- 2022-02-26 Rust 1.59.0 update
+- 2022-02-13 Rust 1.58.1 + Jupyter with Docker Hub update
 
 Quick Start
 ========
@@ -19,6 +20,14 @@ Quick Start
 ```bash
 docker run -it --rm -p 8888:8888 dreamerwolf/rust4beginner:latest
 ```
+
+![[demo.gif]]
+
+**Ctrl+C , Y to Quit**
+
+![[demo.png]]
+
+
 
 The book
 =======
@@ -78,7 +87,7 @@ use browser open http://localhost:6080/ , then lxterminal
 
 Ubuntu
 -------
-**Before start , Please APT Update+Upgrade**
+**Before start, Please APT Update+Upgrade**
 
 ```bash
 add-apt-repository ppa:ubuntu-mozilla-security/rust-updates
