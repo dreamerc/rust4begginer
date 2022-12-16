@@ -2,6 +2,7 @@ This project is focusing on the beginner during Rust explore.
 
 Release Note
 ===
+- 2022-12-16 Rust 1.66.0 update
 - 2022-11-05 Rust 1.65.0 update
 - 2022-09-23 Rust 1.64.0 update
 - 2022-08-16 Rust 1.63.0 update
