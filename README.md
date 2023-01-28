@@ -2,8 +2,12 @@ This project is focusing on the beginner during Rust explore.
 
 Release Note
 ===
+- 2023-01-28 Rust 1.67.0 update
 - 2023-01-11 Rust 1.66.1 update
 - 2022-12-16 Rust 1.66.0 update
+<details>
+<summary>History</summary>
+
 - 2022-11-05 Rust 1.65.0 update
 - 2022-09-23 Rust 1.64.0 update
 - 2022-08-16 Rust 1.63.0 update
@@ -15,6 +19,7 @@ Release Note
 - 2022-03-09 Rust 1.59.0 docker hub update
 - 2022-02-26 Rust 1.59.0 update
 - 2022-02-13 Rust 1.58.1 + Jupyter with Docker Hub update
+</details>
 
 Quick Start
 ========
