@@ -7,6 +7,7 @@ Release Note
 - 2023-03-12 Rust 1.68.0 update
 <details>
 <summary>History</summary>
+
 - 2023-02-18 Rust 1.67.1 update
 - 2023-01-28 Rust 1.67.0 update
 - 2023-01-11 Rust 1.66.1 update
