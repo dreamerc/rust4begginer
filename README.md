@@ -2,17 +2,18 @@ This project is focusing on the beginner during Rust explore.
 
 Release Note
 ===
+- 2023-12-20 Rust 1.74.1 update
 - 2023-11-18 Rust 1.74.0 update
+
+<details>
+<summary>History</summary>
+
 - 2023-10-06 Rust 1.73.0 update
 - 2023-08-25 Rust 1.72.1 update
 - 2023-08-25 Rust 1.72.0 update
 - 2023-07-14 Rust 1.71.0 update
 - 2023-06-06 Rust 1.70.0 update
 - 2023-04-21 Rust 1.69.0 update
-
-<details>
-<summary>History</summary>
-
 - 2023-03-24 Rust 1.68.1 update
 - 2023-03-12 Rust 1.68.0 update
 - 2023-02-18 Rust 1.67.1 update
